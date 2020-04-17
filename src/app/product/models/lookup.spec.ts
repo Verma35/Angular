@@ -5,3 +5,4 @@ describe('Lookup', () => {
     expect(new Lookup()).toBeTruthy();
   });
 });
+

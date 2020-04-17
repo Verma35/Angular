@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NumberonlyDirective } from './directives/numberonly.directive';
-import { CurrencyPipe } from './pipes/currency.pipe';
+
+// import { CurrencyPipe } from './pipes/currency.pipe';
 
 @NgModule({
-  declarations: [NumberonlyDirective, CurrencyPipe],
+  // declarations: [ CurrencyPipe],
+  declarations: [],
   imports: [
     CommonModule
   ],
-  exports:[NumberonlyDirective,CurrencyPipe]
+  // exports:[CurrencyPipe]
+  exports:[]
 })
 export class SharedModule { }
